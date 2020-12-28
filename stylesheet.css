@@ -12,7 +12,19 @@ form {
 	text-align: center;
 }
 
-input[type='button'] {
+input[value='clear'] {
+	font-family: 'Poppins';
+	font-size: 1em;
+	width: 102px;
+	color: black;
+	background-color: white;
+	border-style: solid;
+	border-color: rgb(114, 113, 113);
+	border-width: 1px;
+	border-radius: 2px;
+}
+
+input[value='search'] {
 	font-family: 'Poppins';
 	font-size: 1em;
 	width: 102px;
@@ -26,7 +38,7 @@ input[type='button'] {
 
 input[type='text'] {
 	font-family: 'poppins';
-	width: 201px;
+	width: 202px;
 	margin-bottom: 10px;
 	border-radius: 4px;
 	border-style: solid;
